@@ -16,7 +16,7 @@ else
   mkdir ~/temp
 fi
 
-curl -v https://raw.github.cerner.com/ETS-Bespin/Bespin_Miscellany/master/errata/list.2 > ~/temp/list.2
+curl -v https://raw.githubusercontent.com/Mr-Rhino/Example-for-the-masses/master/scripts/bash/list.2 > ~/temp/list.2
 gshuf -n1 ~/temp/list.2 | say --voice $(say --voice ? | grep en_ | gshuf -n1 | awk '{ print $1 }')
 #
 osascript -e "set Volume ${restore_vol}"
