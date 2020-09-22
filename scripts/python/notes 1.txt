@@ -1,0 +1,31 @@
+
+
+charsReplace = ".,-&'` \\"
+charFile = "Blargle argle, bum's and whey. Billy O`hern."
+for list in charsReplace:
+    charFile = charFile.replace(list, "_")
+
+
+
+
+
+
+
+
+https://www.dndbeyond.com/races/
+
+
+
+https://www.dndbeyond.com/races/dragonborn
+https://www.dndbeyond.com/races/dwarf
+https://www.dndbeyond.com/races/elf
+https://www.dndbeyond.com/races/gnome
+https://www.dndbeyond.com/races/Half-Elf
+https://www.dndbeyond.com/races/halfling
+https://www.dndbeyond.com/races/half-orc
+https://www.dndbeyond.com/races/human
+https://www.dndbeyond.com/races/tiefling
+https://www.dndbeyond.com/races/aarakocra
+https://www.dndbeyond.com/races/genasi
+https://www.dndbeyond.com/races/goliath
+
